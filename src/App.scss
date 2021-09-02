@@ -1,0 +1,11 @@
+.app {
+  height: 100vh;
+}
+
+.sections {
+  width: 100%;
+  height: calc(100vh - 70px); // start the container after header, after 70px
+  background-color: antiquewhite;
+  position: relative;
+  top: 70px;
+}
