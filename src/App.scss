@@ -8,4 +8,16 @@
   background-color: antiquewhite;
   position: relative;
   top: 70px;
+  scroll-snap-type: y mandatory;
+  scrolbar-width: none; // for Firefox, but it doesn't work
+  &::-webkit-scrollbar { // for other browsers
+    display: none;
+  }
+
+
+  > * { // for every component in section part
+    width: 100vw;
+    height: calc(100vh - 70px);
+    scroll-snap-align: start;
+  }
 }
