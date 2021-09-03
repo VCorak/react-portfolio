@@ -5,9 +5,10 @@ export default function Header() {
         <div className="header">
             <div className="wrapper">
                 <div className="left">
-                  <a href="#intro">Intro</a>
+                  <a href="#intro" className="logo">V>.</a>
                 </div>
-                <div className="right"></div>
+                <div className="right">
+                </div>
             </div>
         </div>
     )

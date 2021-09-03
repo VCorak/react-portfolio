@@ -2,9 +2,27 @@
 
 .header {
   background-color: $mainColor;
+  color: #8892B0;
   width: 100%;
   height: 70px;
   position: fixed;
   top: 0;
   z-index: 2; // to se a header on scrolling
+}
+
+.wrapper {
+  padding: 10px 30px;
+  display: flex; // horizontal writing from left to right
+  align-items: center;
+  justify-content: space-between;
+
+  .left {
+    .logo {
+      font-size: 40px;
+      font-weight: 700;
+      text-decoration: none;
+      color: inherit; // from header text color
+    }
+  }
+
 }
