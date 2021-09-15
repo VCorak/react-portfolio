@@ -7,7 +7,8 @@
   height: 70px;
   position: fixed;
   top: 0;
-  z-index: 2; // to se a header on scrolling
+  z-index: 3; // to se a header on scrolling
+  transition: all 1s ease; // smoother color transition
 
 
   .wrapper {
