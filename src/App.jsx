@@ -4,11 +4,13 @@ import Projects from "./components/projects/Projects";
 import Carousel from "./components/carousel/Carousel";
 import Contact from "./components/contact/Contact";
 import "./App.scss"
+import {useState} from "react";
 
 function App() {
+    const [menuOpen, setMenuOpen] = useState(false);
   return (
     <div className="app">
-      <Header />
+      <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <div className="sections">
             <Intro />
             <Projects />
