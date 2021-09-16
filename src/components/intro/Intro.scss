@@ -63,6 +63,18 @@
             font-size: inherit;
             color: #57DFC3;
           }
+
+          .ityped-cursor {
+            animation: blink 2s infinite;
+          }
+          @keyframes blink {
+            50% {
+              opacity: 1;
+            }
+            100% {
+              opacity: 0;
+            }
+          }
         }
       }
 
