@@ -33,7 +33,8 @@ const [selected, setSelected] = useState("featured 1")
                 {list.map((item) => (
                     <ProjectList title = {item.title}
                                  active = {selected === item.id}
-                                 setSelected = {setSelected} /> // for each item return list title
+                                 setSelected = {setSelected}
+                                 id = {item.id} /> // for each item return list title
                 ))}
             </ul>
             <div className="project-container">
