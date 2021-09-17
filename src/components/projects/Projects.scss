@@ -18,12 +18,12 @@
     margin: 30px;
     padding: 0;
     list-style: none;
-    display: flex;
+    display: flex; // make them horizontal
 
     li {
       font-size: 14px;
       margin-right: 50px;
-      padding: 7px;
+      padding: 7px; // top, right, bottom, left
       border-radius: 10px;
       cursor:pointer;
       overflow: hidden;
@@ -42,6 +42,34 @@
     align-items: center;
     justify-content: center;
     overflow: hidden;
-    margin-top: 20px;
+    flex-wrap: wrap;
+
+    .project-items {
+      width: 220px;
+      height: 150px;
+      border-radius: 20px;
+      border: 1px solid lightblue;
+      margin: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      color: #CCD6F6;
+      position: relative;
+
+      h3 {
+        position: absolute;
+        font-size: 20px;
+      }
+
+      img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        z-index: 1;
+      }
+
+
+    }
+
   }
 }
