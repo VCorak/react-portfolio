@@ -1,15 +1,37 @@
 import "./Projects.scss"
+import ProjectList from "../projectList/ProjectList";
 
 export default function Projects() {
+
+    const list = [
+        {
+            id: "featured 1",
+            title: "Featured",
+        },
+        {
+            id: "featured 2",
+            title: "Featured",
+        },
+        {
+            id: "featured 3",
+            title: "Featured",
+        },
+        {
+            id: "featured 4",
+            title: "Featured",
+        },
+        {
+            id: "featured 5",
+            title: "Featured",
+        },
+    ]
     return (
         <div className="projects" id="projects">
             <h1>Projects</h1>
             <ul>
-                <li className="active">Featured 1</li>
-                <li>Featured 2</li>
-                <li>Featured 3</li>
-                <li>Featured 4</li>
-                <li>Featured 5</li>
+                {list.map((item) => (
+                    <ProjectList title={item.title} />
+                ))}
             </ul>
             <div className="project-container">
                 <div className="project-items">
