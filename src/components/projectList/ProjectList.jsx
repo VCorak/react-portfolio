@@ -1,9 +1,11 @@
 import React from 'react';
-import "ProjectList.scss";
+import "./ProjectList.scss";
 
-export default function ProjectList() {
+export default function ProjectList({title, active, setSelected}) {
     return (
-        <li className="projectList"></li>
+        <li className={active ? "projectList active" : "projectList"} >
+            {title}
+        </li>
     );
 }
 

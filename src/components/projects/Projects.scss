@@ -20,20 +20,6 @@
     list-style: none;
     display: flex; // make them horizontal
 
-    li {
-      font-size: 14px;
-      margin-right: 50px;
-      padding: 7px; // top, right, bottom, left
-      border-radius: 10px;
-      cursor:pointer;
-      overflow: hidden;
-      color: #CCD6F6;
-
-      &.active {
-        background-color: #57DFC3;
-        color: #112240;
-      }
-    }
   }
 
   .project-container {

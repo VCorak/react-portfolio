@@ -1,28 +1,29 @@
 import "./Projects.scss"
 import ProjectList from "../projectList/ProjectList";
+import {useState} from "react";
 
 export default function Projects() {
-
-    const list = [
+const [selected, setSelected] = useState("featured 1")
+    const list = [ // active classes on, inactive off
         {
             id: "featured 1",
-            title: "Featured",
+            title: "Featured 1",
         },
         {
             id: "featured 2",
-            title: "Featured",
+            title: "Featured 2",
         },
         {
             id: "featured 3",
-            title: "Featured",
+            title: "Featured 3",
         },
         {
             id: "featured 4",
-            title: "Featured",
+            title: "Featured 4",
         },
         {
             id: "featured 5",
-            title: "Featured",
+            title: "Featured 5",
         },
     ]
     return (
@@ -30,7 +31,9 @@ export default function Projects() {
             <h1>Projects</h1>
             <ul>
                 {list.map((item) => (
-                    <ProjectList title={item.title} />
+                    <ProjectList title = {item.title}
+                                 active = {selected === item.id}
+                                 setSelected = {setSelected} /> // for each item return list title
                 ))}
             </ul>
             <div className="project-container">
