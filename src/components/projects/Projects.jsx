@@ -1,9 +1,12 @@
 import "./Projects.scss"
 import ProjectList from "../projectList/ProjectList";
-import {useState} from "react";
+import {useEffect, useState} from "react";
+import { featuredProjects, angularProjects, phpProjects, reactProjects, jsProjects } from "../../data";
 
 export default function Projects() {
 const [selected, setSelected] = useState("featured 1")
+ const [data, setData] = useState([]);
+
     const list = [ // active classes on, inactive off
         {
             id: "featured 1",
@@ -26,6 +29,30 @@ const [selected, setSelected] = useState("featured 1")
             title: "Featured 5",
         },
     ]
+
+    useEffect(() => {
+switch (selected) {
+    case "featured 1":
+        setData(featuredProjects);
+        break;
+    case "featured 2":
+        setData(reactProjects);
+        break;
+    case "featured 3":
+        setData(jsProjects);
+        break;
+    case "featured 4":
+        setData(angularProjects);
+        break;
+    case "featured 5":
+        setData(phpProjects);
+        break;
+    default:
+        setData(featuredProjects);
+
+}
+    }, [selected])
+    
     return (
         <div className="projects" id="projects">
             <h1>Projects</h1>
@@ -38,30 +65,13 @@ const [selected, setSelected] = useState("featured 1")
                 ))}
             </ul>
             <div className="project-container">
-                <div className="project-items">
-                    <img src="assets/christmas countdown.png" alt="Christmas countdown clock" />
-                    <h3>Christmas Countdown</h3>
-                </div>
-                <div className="project-items">
-                    <img src="assets/christmas countdown.png" alt="Christmas countdown clock" />
-                    <h3>Christmas Countdown</h3>
-                </div>
-                <div className="project-items">
-                    <img src="assets/christmas countdown.png" alt="Christmas countdown clock" />
-                    <h3>Christmas Countdown</h3>
-                </div>
-                <div className="project-items">
-                    <img src="assets/christmas countdown.png" alt="Christmas countdown clock" />
-                    <h3>Christmas Countdown</h3>
-                </div>
-                <div className="project-items">
-                    <img src="assets/christmas countdown.png" alt="Christmas countdown clock" />
-                    <h3>Christmas Countdown</h3>
-                </div>
-                <div className="project-items">
-                    <img src="assets/christmas countdown.png" alt="Christmas countdown clock" />
-                    <h3>Christmas Countdown</h3>
-                </div>
+                {data.map((data) => (
+                    <div className="project-items">
+                        <img src={data.img} alt="Christmas countdown clock" />
+                        <h3>{data.title}</h3>
+                    </div>
+                ))}
+
             </div>
         </div>
     )
