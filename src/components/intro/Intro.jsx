@@ -2,6 +2,7 @@ import "./Intro.scss";
 import { init } from 'ityped';
 import { useEffect, useRef } from "react";
 
+
 export default function Intro() {
     const textRef = useRef();
     useEffect(()=> {
@@ -14,11 +15,13 @@ export default function Intro() {
      }, []);
     return (
         <div className="intro" id="intro">
-            <div className="left">
-                <div className="hoverContainer"></div>
-                <div className="imgContainer">
-                    <img src="assets/profile2.png" alt=""/>
-                </div>
+           <div className="left">
+               {/*<div className="left"> //FINISH THIS!!!!
+                   <div className="hoverContainer"></div>
+                   <div className="imgContainer">
+                       <img src="assets/profile4.png" alt="Profile image"/>
+                   </div>
+               </div>*/}
             </div>
             <div className="right">
                 <div className="wrapper">
