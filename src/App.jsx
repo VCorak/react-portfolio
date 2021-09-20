@@ -1,7 +1,7 @@
 import Header from "./components/header/Header";
 import Intro from "./components/intro/Intro";
 import Projects from "./components/projects/Projects";
-import Carousel from "./components/carousel/Carousel";
+import AboutMe from "./components/about me/AboutMe";
 import Contact from "./components/contact/Contact";
 import "./App.scss"
 import {useState} from "react";
@@ -15,8 +15,8 @@ function App() {
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <div className="sections">
             <Intro />
+            <AboutMe />
             <Projects />
-            <Carousel />
             <Contact />
         </div>
     </div>
