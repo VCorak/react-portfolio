@@ -3,37 +3,37 @@ export const featuredProjects = [
         id: 1,
         title: "Christmas Countdown",
         img: "assets/christmas countdown.png",
-        link: "https://romantic-dubinsky-61d3a6.netlify.app/",
+        link: "https://romantic-dubinsky-61d3a6.netlify.app/"
     },
     {
         id: 2,
-        title: "Shop UI Design",
-        img:
-            "https://cdn.dribbble.com/users/702789/screenshots/15054318/media/4ea5d492b7b07eebc9528ff960794879.png?compress=1&resize=1200x900",
+        title: "Todo App",
+        img: "assets/todo.png",
+        link: "https://clever-snyder-37e3ab.netlify.app/"
     },
     {
         id: 3,
-        title: "E-commerce Web Design",
-        img:
-            "https://cdn.dribbble.com/users/1387827/screenshots/15466426/media/deb2dca6762cd3610321c98bfccb0b72.png?compress=1&resize=1200x900",
+        title: "Rock, Paper, Scissors, Lizard, Spock",
+        img: "assets/rock.png",
+        link:"https://vcorak.github.io/Rock-paper-scissors-spock/"
     },
     {
         id: 4,
-        title: "Relax Mobile App",
-        img:
-            "https://cdn.dribbble.com/users/4095861/screenshots/15467417/media/d6a15c416626f12b31fa5ca1db192572.png?compress=1&resize=1200x900",
+        title: "Fish Game",
+        img: "assets/fish.png",
+        link:"https://optimistic-poincare-2416c3.netlify.app/"
     },
     {
         id: 5,
-        title: "Hero Web Design",
-        img:
-            "https://cdn.dribbble.com/users/5031392/screenshots/15467520/media/c36b3b15b25b1e190d081abdbbf947cf.png?compress=1&resize=1200x900",
+        title: "Memory Game",
+        img: "assets/memory.png",
+        link:"https://vcorak.github.io/Memory-card-game/"
     },
     {
         id: 6,
-        title: "Banking App",
-        img:
-            "https://cdn.dribbble.com/users/3307260/screenshots/15468444/media/447b4501f7a145b05e11c70199a9c417.jpg?compress=1&resize=1200x900",
+        title: "Adastra Group Project",
+        img: "assets/adastra.png",
+        link:"https://aarondenhond.github.io/AdastrA/"
     },
 ];
 
