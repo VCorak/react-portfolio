@@ -37,9 +37,9 @@ export default function Contact () {
 
                 </div>
 
+                <p className="footer">Page made with ❤ REACT, HTML and CSS by Valentina Corak, 2021.</p>
+
             </div>
-
-
 
 
         </div>
