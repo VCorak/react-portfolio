@@ -46,7 +46,9 @@
 
       h3 {
         position: absolute;
-        left: 65px;
+        justify-content: center;
+        align-items: center;
+        overflow-wrap: normal;
         font-size: 20px;
       }
 
@@ -68,7 +70,8 @@
       }
       .link-icon {
         position: absolute;
-        left: 25px;
+        left: 140px;
+        top: 50px;
         font-size: 30px;
 
         a {
