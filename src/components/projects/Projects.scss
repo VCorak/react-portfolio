@@ -10,12 +10,12 @@
     font-size: 50px;
     color: #CCD6F6;
     overflow: hidden;
-    margin: 30px;
-    padding: 25px;
+    margin: 15px;
+    padding: 15px;
   }
 
   ul {
-    margin: 30px;
+    margin: 15px;
     padding: 0;
     list-style: none;
     display: flex; // make them horizontal
@@ -31,8 +31,8 @@
     flex-wrap: wrap;
 
     .project-items {
-      width: 220px;
-      height: 150px;
+      width: 300px;
+      height: 200px;
       border-radius: 20px;
       border: 1px solid lightblue;
       margin: 10px 20px;
@@ -46,6 +46,7 @@
 
       h3 {
         position: absolute;
+        left: 65px;
         font-size: 20px;
       }
 
@@ -63,8 +64,21 @@
           opacity: 0.2;
           z-index: 0;
         }
-      }
 
+      }
+      .link-icon {
+        position: absolute;
+        left: 25px;
+        font-size: 30px;
+
+        a {
+          color: #CCD6F6;
+
+          &:hover {
+            color: #57DFC3;
+          }
+        }
+      }
 
     }
 

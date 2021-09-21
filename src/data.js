@@ -1,9 +1,9 @@
 export const featuredProjects = [
     {
         id: 1,
-        title: "Social Media App",
-        img:
-            "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRKvdHn8GmPGCO0y3SJqNHACygpm0h9VycMHg&usqp=CAU",
+        title: "Christmas Countdown",
+        img: "assets/christmas countdown.png",
+        link: "https://romantic-dubinsky-61d3a6.netlify.app/",
     },
     {
         id: 2,
