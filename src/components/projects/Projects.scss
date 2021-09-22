@@ -12,6 +12,10 @@
     overflow: hidden;
     margin: 15px;
     padding: 15px;
+
+    @include mobile{
+      font-size: 20px;
+    }
   }
 
   ul {
@@ -19,6 +23,12 @@
     padding: 0;
     list-style: none;
     display: flex; // make them horizontal
+
+    @include mobile{
+      margin: 10px 0;
+      flex-wrap: wrap;
+      justify-content: center;
+    }
 
   }
 
@@ -29,6 +39,10 @@
     justify-content: center;
     overflow: hidden;
     flex-wrap: wrap;
+
+    @include mobile{
+      width: 100%;
+    }
 
     .project-items {
       width: 300px;
@@ -43,6 +57,11 @@
       position: relative;
       transition: all 0.5s ease;
       cursor: pointer;
+
+      @include mobile{
+        width: 130px;
+        height: 100px;
+      }
 
       h3 {
         position: absolute;
