@@ -4,7 +4,7 @@
   background-color: $mainColor;
   display: flex;
 
-  .left {
+  .leftIntro {
     flex: 0.5;
     overflow: hidden;
 
@@ -34,8 +34,7 @@
 
 
 
-
-    .right {
+    .rightIntro {
       flex: 0.5;
       position: relative; // the parent container always has to be relative when child is absolute
 

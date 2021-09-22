@@ -15,21 +15,21 @@ export default function Intro() {
      }, []);
     return (
         <div className="intro" id="intro">
-           <div className="left">
-               {/*<div className="left"> //FINISH THIS!!!!
+         {/*<div className="leftIntro">
+               <div className="left"> //FINISH THIS!!!!
                    <div className="hoverContainer"></div>
                    <div className="imgContainer">
                        <img src="assets/profile4.png" alt="Profile image"/>
                    </div>
-               </div>*/}
-            </div>
-            <div className="right">
+               </div>
+            </div>*/}
+            <div className="rightIntro">
                 <div className="wrapper">
                     <h2>Hi There, I'm</h2>
                     <h1>Valentina Corak</h1>
                     <h3>Junior <span ref={textRef}></span></h3>
                 </div>
-                <a href="#projects">
+                <a href="#aboutMe">
                 <img src="assets/down.png" alt="down arrow" />
                 </a>
             </div>
