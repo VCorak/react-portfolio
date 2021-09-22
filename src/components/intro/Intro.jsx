@@ -15,14 +15,15 @@ export default function Intro() {
      }, []);
     return (
         <div className="intro" id="intro">
-         {/*<div className="leftIntro">
-               <div className="left"> //FINISH THIS!!!!
-                   <div className="hoverContainer"></div>
-                   <div className="imgContainer">
-                       <img src="assets/profile4.png" alt="Profile image"/>
-                   </div>
-               </div>
-            </div>*/}
+         <div className="leftIntro">
+             <div id="stars"></div>
+             <div id="stars2"></div>
+             <div id="stars3"></div>
+
+
+</div>
+
+
             <div className="rightIntro">
                 <div className="wrapper">
                     <h2>Hi There, I'm</h2>
