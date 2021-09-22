@@ -1,7 +1,7 @@
 import Header from "./components/header/Header";
 import Intro from "./components/intro/Intro";
 import Projects from "./components/projects/Projects";
-import AboutMe from "./components/about me/AboutMe";
+import AboutMe from "./components/aboutme/AboutMe";
 import Contact from "./components/contact/Contact";
 import "./App.scss"
 import {useState} from "react";
