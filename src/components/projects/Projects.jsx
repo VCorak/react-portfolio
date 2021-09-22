@@ -1,7 +1,7 @@
 import "./Projects.scss"
 import ProjectList from "../projectList/ProjectList";
 import {useEffect, useState} from "react";
-import { featuredProjects, angularProjects, phpProjects, reactProjects, jsProjects } from "../../data";
+import { featuredProjects, reactProjects, jsProjects } from "../../data";
 import { AiOutlineLink } from "react-icons/ai";
 
 export default function Projects() {
@@ -21,14 +21,7 @@ const [selected, setSelected] = useState("featured 1")
             id: "Java Script",
             title: "Java Script",
         },
-        {
-            id: "OOP",
-            title: "OOP",
-        },
-        {
-            id: "PHP",
-            title: "PHP",
-        },
+
     ]
 
     useEffect(() => {
@@ -41,12 +34,6 @@ switch (selected) {
         break;
     case "Java Script":
         setData(jsProjects);
-        break;
-    case "OOP":
-        setData(angularProjects);
-        break;
-    case "PHP":
-        setData(phpProjects);
         break;
     default:
         setData(featuredProjects);
