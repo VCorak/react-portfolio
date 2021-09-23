@@ -1,20 +1,23 @@
 @import "../../Global";
 
 .projectList {
-  font-size: 20px;
+  font-size: 18px;
   margin-right: 50px;
   padding: 7px; // top, right, bottom, left
   border-radius: 10px;
-  cursor:pointer;
+  cursor: pointer;
   overflow: hidden;
   color: #CCD6F6;
 
   @include mobile {
     margin-right: 20px;
+    font-size: 14px;
   }
 
   &.active {
     background-color: #57DFC3;
     color: #112240;
+
+
   }
 }
