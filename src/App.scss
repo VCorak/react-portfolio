@@ -1,6 +1,13 @@
+@import "./Global";
+
 * {
   //font-family: 'Inter', sans-serif;
   overflow: hidden;
+
+  @include mobile {
+    scroll-behavior: smooth;
+
+  }
 }
 
 .app {
