@@ -4,13 +4,9 @@ export default function AboutMe() {
     return (
         <div className="aboutMe" id="aboutMe">
             <div className="left">
-
-                   <div className="hoverContainer"></div>
                    <div className="imgContainer">
                        <img src="assets/profile4.png" alt="Profile image"/>
                    </div>
-
-
             </div>
 
 

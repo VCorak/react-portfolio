@@ -15,6 +15,10 @@ export default function Header({menuOpen, setMenuOpen}) {
                         <Mail className="icon" />
                         <span>valentinacorak@gmail.com</span>
                     </div>
+                    <div className="itemContainer">
+                    <a className="pdf-link" href="https://drive.google.com/file/d/1xw7EcOxOUgQpeVnNIY__2TusVrd6YUhc/view?usp=sharing" rel="noopener noreferrer"
+                       target="_blank">Resume</a>
+                        </div>
                 </div>
                 <div className="right">
                     <div className="hamburger" onClick={() =>setMenuOpen(!menuOpen)}>

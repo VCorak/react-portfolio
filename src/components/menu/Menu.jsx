@@ -17,6 +17,10 @@ export default function Menu({menuOpen, setMenuOpen}) {
                 <li onClick={()=>setMenuOpen(false)}>
                     <a href="#contact">Contact</a>
                 </li>
+                <div className="itemContainer" >
+                    <a className="pdf-link" href="https://drive.google.com/file/d/1xw7EcOxOUgQpeVnNIY__2TusVrd6YUhc/view?usp=sharing" rel="noopener noreferrer"
+                       target="_blank">Resume</a>
+                </div>
             </ul>
         </div>
     );

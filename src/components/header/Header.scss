@@ -29,6 +29,21 @@
         margin-right: 40px;
       }
 
+      .pdf-link {
+        color: #57DFC3;
+        background-color: transparent;
+        border: 1px solid #57DFC3;
+        border-radius: 10px;
+        padding: 0.80rem 0.80rem;
+        font-size: var(--fz-sm);
+        font-family: var(--font-mono);
+        line-height: 1;
+        text-decoration: none;
+        cursor: pointer;
+        transition: var(--transition);
+
+      }
+
       .itemContainer {
         display: flex;
         align-items: center;

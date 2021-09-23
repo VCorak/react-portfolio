@@ -6,7 +6,8 @@
   flex-direction: column;
   align-items: center;
 
-  @include mobile{
+
+  @include mobile {
     margin: 0 auto;
   }
 
@@ -30,7 +31,7 @@
     display: flex; // make them horizontal
 
     @include mobile{
-      margin: 5px 0;
+      margin: 10px 0;
       flex-wrap: wrap;
       justify-content: center;
       font-size: 15px;
@@ -53,8 +54,6 @@
     .project-items {
       width: 300px;
       height: 200px;
-      border-radius: 20px;
-      border: 1px solid lightblue;
       margin: 10px 20px;
       display: flex;
       align-items: center;
@@ -78,8 +77,6 @@
 
         @include mobile{
           font-size: 15px;
-
-
         }
       }
 
@@ -93,6 +90,7 @@
 
       &:hover {
         background-color: $mainColor;
+        border: 1px solid lightblue;
 
         img {
           opacity: 0.2;

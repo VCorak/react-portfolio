@@ -9,9 +9,11 @@
   overflow: hidden;
   color: #CCD6F6;
 
+
   @include mobile {
     margin-right: 20px;
     font-size: 14px;
+    flex-direction: column;
   }
 
   &.active {
