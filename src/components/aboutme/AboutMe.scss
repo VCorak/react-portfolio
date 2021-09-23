@@ -48,57 +48,52 @@
   }
 
     .right {
-      flex: 0.6;
+      flex: 0.7;
       position: relative;
       overflow: hidden;
       margin-top: 70px;
 
       @include mobile {
         margin-top: 0;
+        margin-bottom: 0;
       }
-
 
       .wrapper {
         width: 100%;
         height: 100%;
         display: flex;
         flex-direction: column;
-        padding: 1rem;
         justify-content: space-between;
-
 
         h2 {
           font-size: 60px;
           font-weight: lighter;
           color: #CCD6F6;
-          margin-left: 100px;
+          margin-left: 120px;
           padding-top: 20px;
           text-align: left;
-          flex: 1 1 150px;
 
           @include mobile {
             font-size: 20px;
-            padding-top: 5px;
-
           }
         }
 
         p {
-          margin-left: 100px;
+          margin-left: 120px;
+          margin-top: 10px;
           font-size: 20px;
           font-weight: lighter;
           color: #CCD6F6;
-          padding-top: 30px;
           text-align: justify-all;
-          word-wrap: break-word;
+          width: 50%;
+
 
           @include mobile {
-            font-size: 11.5px;
-            max-width: 50%;
-            max-height: 100%;
-            padding-top: 20px;
-
+            font-size: 13px;
+            word-wrap: break-word;
+            width: 50%;
           }
+
 
           span {
             color: #57DFC3;
