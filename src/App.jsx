@@ -10,7 +10,7 @@ import Menu from "./components/menu/Menu";
 function App() {
     const [menuOpen, setMenuOpen] = useState(false);
 
-  return (
+    return (
     <div className="app">
       <Header menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
         <Menu menuOpen={menuOpen} setMenuOpen={setMenuOpen} />

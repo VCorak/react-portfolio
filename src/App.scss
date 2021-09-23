@@ -2,11 +2,14 @@
   //font-family: 'Inter', sans-serif;
   overflow: hidden;
 
+  html {
+    scroll-behavior: smooth;
+  }
+
 }
 
 .app {
   height: 100vh;
-
 
 }
 
