@@ -5,7 +5,7 @@ export default function AboutMe() {
         <div className="aboutMe" id="aboutMe">
             <div className="left">
                    <div className="imgContainer">
-                       <img src="assets/profile4.png" alt="Profile image"/>
+                       <img src="assets/profile4.png" alt="Profile"/>
                    </div>
             </div>
 
