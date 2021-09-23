@@ -1,11 +1,13 @@
 * {
   //font-family: 'Inter', sans-serif;
   overflow: hidden;
-  
+
 }
 
 .app {
   height: 100vh;
+  overflow-y: hidden;
+  -webkit-overflow-scrolling: touch;
 
 }
 
@@ -27,8 +29,6 @@
     width: 100vw;
     height: calc(100vh - 70px);
     scroll-snap-align: start;
-    overflow-y: scroll;
-    -webkit-overflow-scrolling: touch;
 
   }
 }
