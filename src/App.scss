@@ -2,31 +2,28 @@
 
 * {
   //font-family: 'Inter', sans-serif;
-  overflow: hidden;
 }
 
 
 .app {
   height: 100vh;
-
-  @include mobile {
-    scroll-behavior: smooth;
-  }
-
-}
-
-.sections {
-  width: 100%;
-  height: calc(100vh - 70px); // start the container after header, after 70px
-  background-color: antiquewhite;
-  position: relative;
-  top: 70px;
   scroll-behavior: smooth; // on link click it scrolls slower to page, not instantly
   scroll-snap-type: y mandatory;
   scrolbar-width: none; // for Firefox, but it doesn't work
   &::-webkit-scrollbar { // for other browsers
     display: none;
   }
+
+}
+
+.sections {
+  width: 100%;
+  height: calc(100vh - 69px); // start the container after header, after 70px
+  background-color: antiquewhite;
+  position: relative;
+  top: 70px;
+}
+
 
 
   > * { // for every component in section part
@@ -35,4 +32,3 @@
     scroll-snap-align: start;
 
   }
-}
