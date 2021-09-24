@@ -1,5 +1,7 @@
 @import "./Global";
 
+* html .clearfix { height: 1%; }
+
 * {
   //font-family: 'Inter', sans-serif;
   @include mobile {
