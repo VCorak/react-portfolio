@@ -1,9 +1,22 @@
 @import "./Global";
 
-* html .clearfix { height: 1%; }
+/* Hide scrollbar for Chrome, Safari and Opera, Firefox */
+*::-webkit-scrollbar {
+  display: none;
+}
+
+* {
+  -ms-overflow-style: none;
+}
+
+
+* {
+  scrollbar-width: none;
+}
 
 * {
   //font-family: 'Inter', sans-serif;
+
   @include mobile {
     ::-webkit-scrollbar-thumb, ::-webkit-scrollbar {
       display: none;
@@ -12,7 +25,7 @@
 }
 
 /* custom scrollbar */
-::-webkit-scrollbar {
+/*::-webkit-scrollbar {
   width: 20px;
 
 }
@@ -32,14 +45,18 @@
 
 ::-webkit-scrollbar-thumb:hover {
   background-color: #57DFC3;
-}
+}*/
 
 
 .app {
   height: 100vh;
   scroll-behavior: smooth; // on link click it scrolls slower to page, not instantly
   scroll-snap-type: y mandatory;
-  scrolbar-width: none; // for Firefox, but it doesn't work
+  scrollbar-width: none; // Beta for Firefox, doesn't work
+  -ms-overflow-style: none;
+  overflow-y: scroll;
+
+
   &::-webkit-scrollbar { // for other browsers
     display: none;
   }
