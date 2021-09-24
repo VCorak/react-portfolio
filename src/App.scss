@@ -12,7 +12,7 @@
   @include mobile {
     ::-webkit-scrollbar {
       width: 0px;
-      background: transparent; /* make scrollbar transparent */
+
     }
   }
 }
@@ -21,8 +21,7 @@
   background-color: #0A192F;
 
   @include mobile {
-    ::-webkit-scrollbar {
-      width: 0px;
+    ::-webkit-scrollbar-track {
       background: transparent; /* make scrollbar transparent */
     }
   }
@@ -35,9 +34,8 @@
   background-clip: content-box;
 
   @include mobile {
-    ::-webkit-scrollbar {
-      width: 0px;
-      background: transparent; /* make scrollbar transparent */
+    ::-webkit-scrollbar-thumb {
+      background-color: transparent; /* make scrollbar transparent */
     }
   }
 }
