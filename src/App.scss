@@ -2,6 +2,31 @@
 
 * {
   //font-family: 'Inter', sans-serif;
+
+}
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+  width: 20px;
+
+  @include mobile {
+    display: none;
+  }
+}
+
+::-webkit-scrollbar-track {
+  background-color: #0A192F;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: #112240;
+  border-radius: 20px;
+  border: 6px solid transparent;
+  background-clip: content-box;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background-color: #a8bbbf;
 }
 
 
@@ -22,8 +47,6 @@
   background-color: antiquewhite;
   position: relative;
   top: 70px;
-}
-
 
 
   > * { // for every component in section part
@@ -32,3 +55,4 @@
     scroll-snap-align: start;
 
   }
+}
