@@ -2,29 +2,22 @@
 
 * {
   //font-family: 'Inter', sans-serif;
-
+  @include mobile {
+    ::-webkit-scrollbar-thumb, ::-webkit-scrollbar {
+      display: none;
+    }
+  }
 }
 
 /* custom scrollbar */
 ::-webkit-scrollbar {
   width: 20px;
 
-  @include mobile {
-    ::-webkit-scrollbar {
-      width: 0px;
-
-    }
-  }
 }
 
 ::-webkit-scrollbar-track {
   background-color: #0A192F;
 
-  @include mobile {
-    ::-webkit-scrollbar-track {
-      background: transparent; /* make scrollbar transparent */
-    }
-  }
 }
 
 ::-webkit-scrollbar-thumb {
@@ -33,11 +26,6 @@
   border: 6px solid transparent;
   background-clip: content-box;
 
-  @include mobile {
-    ::-webkit-scrollbar-thumb {
-      background-color: transparent; /* make scrollbar transparent */
-    }
-  }
 }
 
 ::-webkit-scrollbar-thumb:hover {
