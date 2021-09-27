@@ -127,6 +127,10 @@
 
           &:hover {
             color: #57DFC3;
+
+            @include mobile {
+              color: transparent;
+            }
           }
         }
       }
