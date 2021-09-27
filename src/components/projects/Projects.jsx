@@ -55,7 +55,7 @@ switch (selected) {
             <div className="project-container">
                 {data.map((data) => (
                     <div className="project-items">
-                        <img src={data.img} alt="{data.link}" />
+                        <img src={data.img}   />
                         <h3>{data.title}</h3>
                         <div className="link-icon">
                            <a href={data.link} rel="noopener noreferrer"

@@ -77,7 +77,9 @@
         font-size: 20px;
 
         @include mobile{
-          font-size: 15px;
+          font-size: 12px;
+          align-items: baseline;
+          justify-content: center;
         }
       }
 
@@ -108,15 +110,20 @@
         top: 50px;
         font-size: 30px;
 
-        @include mobile{
+        @include mobile {
           position: absolute;
-          left: 60px;
-          top: 20px;
-          font-size: 20px;
+          left: 48px;
+          top: 6px;
+          font-size: 35px;
+          word-break: keep-all;
         }
 
         a {
           color: #CCD6F6;
+
+          @include mobile {
+            color: transparent;
+          }
 
           &:hover {
             color: #57DFC3;

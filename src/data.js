@@ -13,7 +13,7 @@ export const featuredProjects = [
     },
     {
         id: 3,
-        title: "Rock, Paper, Scissors, Lizard, Spock",
+        title: "Rock, Paper, Scissors...",
         img: "assets/rock.png",
         link:"https://vcorak.github.io/Rock-paper-scissors-spock/"
     },
