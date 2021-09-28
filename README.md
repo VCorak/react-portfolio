@@ -1,6 +1,6 @@
-## PORTFOLIO PAGE
+## PORTFOLIO PAGE 👩📣
 
-**This is portfolio page, short one age project that summarise favourite projects I worked on so far, few lines about me and contact information.**
+**This is portfolio page, project that summarise favourite projects I worked on so far, few lines about me and contact information.**
 [Valentina Corak](https://valentinacorak.netlify.app/)
 
 ## Which technologies I used and why?
