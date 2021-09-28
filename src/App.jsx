@@ -8,7 +8,7 @@ import {useState} from "react";
 import Menu from "./components/menu/Menu";
 
 function App() {
-    const [menuOpen, setMenuOpen] = useState(false);
+    const [menuOpen, setMenuOpen] = useState(false); // when to open a menu bar
 
     return (
     <div className="app">
@@ -25,3 +25,5 @@ function App() {
 }
 
 export default App;
+
+// passing the props to Header, when we click on hamburger(added onClick event) menuOpen class is active and true and running the function setMenuOpen
