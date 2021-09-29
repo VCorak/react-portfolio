@@ -8,6 +8,8 @@
 * I used React as a main library. Except I somehow like it, don't know why, maybe because that is my second "language" after JS that I learned and has some power in itself, idk...just blabbing nonsense... 😅
 But, second reason is I really want to concentrate on it now and learn it a bit deeper. Plan is to build few projects, explore documentation and news. Have feeling that I explore in general too much over different languages and the best thing to do now is to focus on one, and React is my biggest wish to conquer.
   ![](https://media.giphy.com/media/jQnPoDtuIFWbTV45He/giphy.gif?cid=ecf05e476d1gkncwedf4ee53tg7msg9fpn0mwnqgb44jscrj&rid=giphy.gif&ct=g)
+  * Used Balsamiq for simple [wireframe design](https://balsamiq.cloud/smw3d6f/p3j0jr/r2278)
+    * And this is Figma design for [Intro section](https://www.figma.com/file/lB59KTKC5oNkBvB6zg73vo/Untitled?node-id=0%3A1)
   * For styling part I used SAAS and his SCSS syntax, just wanted to see how would that work. Liked the use of **variables**- for example in this project I used **variable** for **primaryColor** for entire project, which is not much but I've got the sense how that can help a lot when you have bigger
     project on mind. 
     *What I didn't like* is that part when you can nest children styles inside parent- sometimes I got lost in all that open brackets...
@@ -37,7 +39,11 @@ But, second reason is I really want to concentrate on it now and learn it a bit 
 
 * This was a project that took a bit more time than I expected. I was like always indecisive about styling, 
 colors, design... so SCSS part to longer. Also took time for responsiveness because I did not use Bootstrap
-or anything similar and made my life harder of course. 
+or anything similar and made my life harder of course.
+  * You can check the progress on this Trello [Internship Construction Site](https://trello.com/b/03UgRPiQ/internship-construction-site)
+    * Noticed that, when using Trello I'm not sticking very much to the plan, and have to start using some dates as a goal marks, still not very good
+  at project management and planning...
+      <img src="https://media.giphy.com/media/xXgBvSKPOEYXH6Rhqf/giphy.gif?cid=ecf05e47abe0nc5r29894fjwa8zxta0n7xxxsvwi96285ntb&rid=giphy.gif&ct=g" width="100" height="100">
 * Noticed that my understanding of hooks is much better with every project, here I used *useState*, *useEffect* and *useRef*
 and made comments in the code to remember for what purpose they are. But still want to do few simpler projects with hooks to be more confident
 with them, as in theory as well in practice. Like this blog explanation for useEffect hook https://dmitripavlutin.com/react-useeffect-explanation/.
