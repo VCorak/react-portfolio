@@ -1,6 +1,6 @@
 ## PORTFOLIO PAGE 👩📣
 
-**This is portfolio page, project that summarise favourite projects I worked on so far, few lines about me and contact information.**
+**This is portfolio page, summarising favourite projects I worked on so far, few lines about me and contact information.**
 [Valentina Corak](https://valentinacorak.netlify.app/)
 
 ## Which technologies I used and why?
@@ -41,9 +41,11 @@ But, second reason is I really want to concentrate on it now and learn it a bit 
 colors, design... so SCSS part to longer. Also took time for responsiveness because I did not use Bootstrap
 or anything similar and made my life harder of course.
   * You can check the progress on this Trello [Internship Construction Site](https://trello.com/b/03UgRPiQ/internship-construction-site)
-    * Noticed that, when using Trello I'm not sticking very much to the plan, and have to start using some dates as a goal marks, still not very good
+    * *Something to work on*: when using Trello I'm not sticking very much to the plan, and have to start using some dates as a goal marks, still not very good
   at project management and planning...
-      <img src="https://media.giphy.com/media/xXgBvSKPOEYXH6Rhqf/giphy.gif?cid=ecf05e47abe0nc5r29894fjwa8zxta0n7xxxsvwi96285ntb&rid=giphy.gif&ct=g" width="100" height="100">
+      
+        <img src="https://media.giphy.com/media/xXgBvSKPOEYXH6Rhqf/giphy.gif?cid=ecf05e47abe0nc5r29894fjwa8zxta0n7xxxsvwi96285ntb&rid=giphy.gif&ct=g" width="100" height="100">
+
 * Noticed that my understanding of hooks is much better with every project, here I used *useState*, *useEffect* and *useRef*
 and made comments in the code to remember for what purpose they are. But still want to do few simpler projects with hooks to be more confident
 with them, as in theory as well in practice. Like this blog explanation for useEffect hook https://dmitripavlutin.com/react-useeffect-explanation/.
