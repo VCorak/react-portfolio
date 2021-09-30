@@ -5,8 +5,8 @@ import { featuredProjects, reactProjects, jsProjects } from "../../data";
 import { AiOutlineLink } from "react-icons/ai";
 
 export default function Projects() {
-const [selected, setSelected] = useState("featured 1")
- const [data, setData] = useState([]);
+const [selected, setSelected] = useState("featured 1");
+    const [data, setData] = useState([]);
 
     const list = [ // active classes on, inactive off
         {
