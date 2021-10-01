@@ -53,7 +53,7 @@ switch (selected) {
                 ))}
             </ul>
             <div className="project-container">
-                {data.map((data) => (
+                {data.map((data)=> (
                     <div className="project-items">
                         <img src={data.img} alt="Project screenshot"  />
                         <h3>{data.title}</h3>
@@ -64,6 +64,8 @@ switch (selected) {
                            </a>
                         </div>
                     </div>
+
+
 
                 ))}
 
