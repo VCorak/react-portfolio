@@ -104,36 +104,61 @@
         }
 
       }
+
       .link-icon {
         position: absolute;
-        left: 140px;
-        top: 50px;
-        font-size: 30px;
+        left: 135px;
+        top: 25px;
+        font-size: 50px;
 
         @include mobile {
           position: absolute;
-          left: 48px;
+          left: 53px;
           top: 6px;
-          font-size: 35px;
+          font-size: 30px;
           word-break: keep-all;
+
+          a {
+            color: #57DFC3;
+          }
         }
 
         a {
           color: #CCD6F6;
 
-          @include mobile {
-            color: transparent;
-          }
-
           &:hover {
             color: #57DFC3;
-
-            @include mobile {
-              color: transparent;
-            }
           }
         }
       }
+
+
+      .git-icon {
+        position: absolute;
+        left: 129px;
+        bottom: 7px;
+        font-size: 50px;
+
+        @include mobile {
+          position: absolute;
+          left: 50px;
+          bottom: 1px;
+          font-size: 30px;
+
+          a {
+            color: #57DFC3;
+          }
+        }
+
+        a {
+          color: #CCD6F6;
+
+          &:hover {
+            color: #57DFC3;
+          }
+        }
+      }
+
 
     }
 

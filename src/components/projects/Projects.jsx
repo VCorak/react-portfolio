@@ -3,6 +3,8 @@ import ProjectList from "../projectList/ProjectList";
 import {useEffect, useState} from "react";
 import { featuredProjects, reactProjects, jsProjects } from "../../data";
 import { AiOutlineLink } from "react-icons/ai";
+import { AiFillGithub } from "react-icons/ai";
+
 
 export default function Projects() {
 const [selected, setSelected] = useState("featured 1");
@@ -54,7 +56,7 @@ switch (selected) {
             </ul>
             <div className="project-container">
                 {data.map((data)=> (
-                    <div className="project-items">
+                    <div key={data.id} className="project-items">
                         <img src={data.img} alt="Project screenshot"  />
                         <h3>{data.title}</h3>
                         <div className="link-icon">
@@ -62,6 +64,12 @@ switch (selected) {
                               target="_blank">
                             <AiOutlineLink />
                            </a>
+                        </div>
+                        <div className="git-icon">
+                            <a href="https://github.com/VCorak/VCorak" aria-label="GitHub" rel="noopener noreferrer"
+                               target="_blank">
+                                <AiFillGithub />
+                            </a>
                         </div>
                     </div>
 
