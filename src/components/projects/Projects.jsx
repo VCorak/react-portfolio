@@ -66,7 +66,7 @@ switch (selected) {
                            </a>
                         </div>
                         <div className="git-icon">
-                            <a href="https://github.com/VCorak/VCorak" aria-label="GitHub" rel="noopener noreferrer"
+                            <a href={data.github} aria-label="GitHub" rel="noopener noreferrer"
                                target="_blank">
                                 <AiFillGithub />
                             </a>
